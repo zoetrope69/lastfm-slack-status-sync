@@ -1,0 +1,27 @@
+{
+  "name": "lastfm-slack-status-sync",
+  "version": "1.0.0",
+  "description": "Update your Slack status with your currently playing Last.fm track",
+  "main": "server.js",
+  "repository": "https://glitch.com/edit/#!/lastfm-slack-status-sync",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-fetch": "^2.2.0",
+    "@slack/client": "^4.3.1",
+    "qs": "^6.5.2"
+  },
+  "engines": {
+    "node": "6.10.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "lastfm",
+    "express",
+    "slack"
+  ]
+}
